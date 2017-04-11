@@ -1,0 +1,10 @@
+<% provide :title, t("about") %>
+<h1><%= t "about" %></h1>
+<p>
+  <%= raw t("about_content",
+    rails_tut_link: link_to(t("ror_tut"), "http://www.railstutorial.org/"),
+    rails_book_link: link_to(t("book"), "http://www.railstutorial.org/book"),
+    screen_cast_rails: link_to(t("screen_cast"), "http://screencasts.railstutorial.org/"),
+    RoR_link: link_to(t("ror_tut"), "http://rubyonrails.org/")
+  ) %>
+</p>

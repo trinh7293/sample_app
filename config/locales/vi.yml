@@ -1,0 +1,25 @@
+vi:
+  en: "Tiếng Anh"
+  vi: "Tiếng Việt"
+  static_title: "Hướng dẫn Ruby on Rails app mẫu"
+  hello: "Chào"
+  home: "Trang chủ"
+  about: "Về chúng tôi"
+  help: "Hỗ trợ"
+  contact: "Contact"
+  sample_app: "Sample App"
+  home_content: "Đây là trang chủ của %{ruby_tut_link} app."
+  help_content: "Nhận trợ giúp trong
+    %{help_section_link}.
+    Để nhận được trợ giúp trong ví dụ này, hãy vào
+    %{rails_book_link}"
+  help_section: "mục trợ giúp Rails Tutorial"
+  rails_book: "Ruby on Rails Tutorial"
+  about_content: "%{rails_tut_link}
+    vừa là một %{rails_book_link}
+    vừa là %{screen_cast_rails}
+    hướng dẫn lập trình web với %{RoR_link}.
+    Đây là ví dụ đơn gỉan của 1 app"
+  book: sách
+  screen_cast: screencast series
+  ror_tut: Hướng dẫn Ruby on Rails
