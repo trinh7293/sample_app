@@ -1,0 +1,6 @@
+<% provide :title, t("home") %>
+<h1><%= t "sample_app" %></h1>
+<p>
+  <%=raw t("home_content",
+    ruby_tut_link: link_to(t("ror_tut"), "http://www.railstutorial.org/")) %>
+</p>
