@@ -28,6 +28,9 @@ en:
   about: "About"
   help: "Help"
   contact: "Contact"
+  login: "Log in"
+  sign_up: "Sign up"
+  sign_up_now: "Sign up now!"
   sample_app: "Sample App"
   home_content: "This is the home page for the %{ruby_tut_link} sample application."
   help_content: "Get help on the Ruby on Rails Tutorial at the %{help_section_link}.
@@ -42,3 +45,9 @@ en:
   book: book
   screen_cast: screencast series
   ror_tut: Ruby on Rails tutorial
+  footer_content: The %{ruby_tut_link} by %{michael}
+  michael: Michael Hartl
+  contact_content: "Contact the Ruby on Rails
+      Tutorial about the sample app at the %{contact_rails}"
+  contact_rails: contact page
+  news: News

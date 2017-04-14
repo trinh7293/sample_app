@@ -6,7 +6,10 @@ vi:
   home: "Trang chủ"
   about: "Về chúng tôi"
   help: "Hỗ trợ"
-  contact: "Contact"
+  login: "Đăng nhập"
+  sign_up: "Đăng ký"
+  sign_up_now: "Đăng nhập ngay!"
+  contact: "Liên hệ"
   sample_app: "Sample App"
   home_content: "Đây là trang chủ của %{ruby_tut_link} app."
   help_content: "Nhận trợ giúp trong
@@ -23,3 +26,9 @@ vi:
   book: sách
   screen_cast: screencast series
   ror_tut: Hướng dẫn Ruby on Rails
+  footer_content: "%{ruby_tut_link} bởi %{michael}"
+  michael: Michael Hartl
+  contact_content: "Liên hệ tới Ruby on Rails
+      Tutorial từ sample app bởi %{contact_rails}"
+  contact_rails: trang liên lạc
+  news: Tin tức

@@ -2,20 +2,15 @@
 <html>
   <head>
     <title><%= full_title(yield :title) %></title>
-    <%= csrf_meta_tags %>
-    <%= stylesheet_link_tag "application", media: "all",
-      "data-turbolinks-track": "reload" %>
-    <%= javascript_include_tag "application",
-      "data-turbolinks-track": "reload" %>
+    <%= render "layouts/rails_default" %>
+    <%= render "layouts/shim" %>
   </head>
   <body>
+    <%= render "layouts/header" %>
     <%= link_to t("en"), locale:"en" %>
     <%= link_to t("vi"), locale:"vi" %>
     </br>
-    <%= link_to t("home"), root_url %>
-    <%= link_to t("help"), help_url %>
-    <%= link_to t("about"), about_url %>
-    <%= link_to t("contact"), contact_url %>
     <%= yield %>
+    <%= render "layouts/footer" %>
   </body>
 </html>
