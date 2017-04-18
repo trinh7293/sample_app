@@ -8,14 +8,23 @@ vi:
   about: "Về chúng tôi"
   help: "Hỗ trợ"
   login: "Đăng nhập"
+  users: "Người dùng"
+  account: "Tài khoản"
+  profile: "Thông tin"
+  settings: "Cài đặt"
+  log_out: "Đăng xuất"
   sign_up: "Đăng ký"
   sign_up_now: "Đăng ký ngay!"
+  login: "Đăng nhập"
+  newuser: "Người dùng mới ?"
+  sign_up_now: "Đăng ký ngay"
   name: "Tên"
   email: "Email"
   password: "Mật khẩu"
   confirmation: "Xác nhận mật khẩu"
   create_account: "Tạo tài khoản"
   user_not_found: "Tài khoản không tồn tại"
+  invalid_email_pass: "email/password không trùng khớp"
   contact: "Liên hệ"
   sample_app: "Sample App"
   home_content: "Đây là trang chủ của %{ruby_tut_link} app."
@@ -39,3 +48,22 @@ vi:
       Tutorial từ sample app bởi %{contact_rails}"
   contact_rails: trang liên lạc
   news: Tin tức
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "Tên người dùng không được để trống"
+              too_long: "Tên người dùng không được quá 50 kí tự"
+            email:
+              blank: "Email người dùng không được để trống"
+              too_long: "Email người dùng không được quá 255 kí tự"
+              invalid: "Email ko hợp lệ "
+            password:
+              blank: "password không được để trống"
+              too_short: "password quá ngắn"
+            password:
+              blank: "Xác nhận pasword không được để trống"
+              too_short: "Xác nhận pasword quá ngắn"
+
