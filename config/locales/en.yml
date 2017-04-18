@@ -22,6 +22,7 @@
 en:
   en: "English"
   vi: "Vietnamese"
+  welcome: "Welcome to sample app"
   static_title: "Ruby on Rails Tutorial Sample App"
   hello: "Hello world"
   home: "Home"
@@ -31,6 +32,12 @@ en:
   login: "Log in"
   sign_up: "Sign up"
   sign_up_now: "Sign up now!"
+  name: "Name"
+  email: "Email"
+  Password: "Password"
+  confirmation: "Confirmation"
+  create_account: "Create my account"
+  user_not_found: "User not found"
   sample_app: "Sample App"
   home_content: "This is the home page for the %{ruby_tut_link} sample application."
   help_content: "Get help on the Ruby on Rails Tutorial at the %{help_section_link}.
@@ -51,3 +58,4 @@ en:
       Tutorial about the sample app at the %{contact_rails}"
   contact_rails: contact page
   news: News
+  error_form: "The form contains %{err_num} error(s)"
