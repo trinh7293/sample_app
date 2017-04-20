@@ -25,6 +25,10 @@ class User < ApplicationRecord
     end
   end
 
+  def current_user? user
+    self == user
+  end
+
   def remember
     self.remember_token = self.class.new_token
     update_attributes remember_digest: self.class.digest(remember_token)
@@ -40,6 +44,7 @@ class User < ApplicationRecord
   end
 
   private
+
   def downcase_email
     self.email = email.downcase
   end
