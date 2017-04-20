@@ -83,11 +83,17 @@ en:
   post: "Post"
   new_post: "Compose new micropost..."
   micropost: "Micropost"
-  view_profile: "view my profile"
+  microposts: "Microposts : "
+  view_profile: "View my profile"
   picture_upload_error: "Maximum file size is 5MB. Please choose a smaller file."
   the_form_contains: "The form contains"
   error: "error"
   micropost_feed: "Micropost Feed"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  following: "following"
+  followers: "followers"
+
   sample_app: "Sample App"
   home_content: "This is the home page for the %{ruby_tut_link} sample application."
   help_content: "Get help on the Ruby on Rails Tutorial at the %{help_section_link}.
