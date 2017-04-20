@@ -26,3 +26,4 @@ config/secrets.yml
 
 # Ignore Spring files.
 /spring/*.pid
+/config/application.yml
