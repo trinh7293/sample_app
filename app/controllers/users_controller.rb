@@ -50,7 +50,6 @@ class UsersController < ApplicationController
   end
 
   private
-
   def find_user
     @user = User.find_by id: params[:id]
     unless @user
