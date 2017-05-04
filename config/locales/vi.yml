@@ -54,7 +54,8 @@ vi:
   hi: "Xin chào"
   click_to_activate: "Click vào link để kích hoạt tài khoản"
   activate: "Kích hoạt"
-  contact: "Liên hệ"
+  micropost_created: "Micropost đã được tạo!"
+  micropost_deleted: "Micropost đã xóa!"
   sample_app: "Sample App"
   home_content: "Đây là trang chủ của %{ruby_tut_link} app."
   help_content: "Nhận trợ giúp trong
