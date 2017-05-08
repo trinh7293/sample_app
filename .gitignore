@@ -27,3 +27,6 @@ config/secrets.yml
 # Ignore Spring files.
 /spring/*.pid
 /config/application.yml
+
+# Ignore uploaded test images.
+/public/uploads

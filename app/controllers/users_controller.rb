@@ -25,6 +25,7 @@ class UsersController < ApplicationController
 
   def show
     redirect_to root_url and return unless @user.activated?
+    @microposts = @user.microposts.ordered.paginate page: params[:page]
   end
 
   def edit
@@ -61,14 +62,6 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit :name, :email, :password,
       :password_confirmation
-  end
-
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = t "please_log_in"
-      redirect_to login_url
-    end
   end
 
   def correct_user

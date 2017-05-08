@@ -75,6 +75,8 @@ en:
   hi : "Hi"
   click_to_activate: "Click on the link below to activate your account:"
   activate: "Activate"
+  micropost_created: "Micropost created!"
+  micropost_deleted: "Micropost deleted!"
   sample_app: "Sample App"
   home_content: "This is the home page for the %{ruby_tut_link} sample application."
   help_content: "Get help on the Ruby on Rails Tutorial at the %{help_section_link}.
